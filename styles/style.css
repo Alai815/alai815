@@ -1,0 +1,30 @@
+/* CSS Document */
+html{
+	font-size: 10px;
+	font-family: "Open Sans",sans-serif;
+	background-color: #00539f;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+	margin: 0;/*覆盖浏览器默认样式*/
+	padding: 20px 0;/*上下内边距设置为20像素*/
+	color: #00539f;/*为标题文本设置颜色*/
+	text-shadow: 3px 3px 1px black;/*文本设置阴影，从左至右：水平偏移、垂直偏移、模糊半径、阴影颜色*/
+}
+p,li{
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+body{
+	width: 600px;/*强制页面保持600像素宽度*/
+	margin: 0 auto;/*设置（0）上下（auto）左右外边距*/
+	background-color: #ff9500;/*设置背景颜色*/
+	padding: 0 20px 20px 20px;/*设置内边距，值以上下、右左顺序排列*/
+	border: 5px solid black;/*设置边框宽度、样式和颜色*/
+}
+img{
+	display: block;/*给予图像块级行为*/
+	margin: 0 auto;
+}
